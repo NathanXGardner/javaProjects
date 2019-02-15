@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class P3Driver {
+public class DataSearchSystemDriver {
     public static void main(String[] args) throws Exception {
         Scanner in;
         if (args.length > 0 && !args[0].equals("-")) {
@@ -20,7 +20,7 @@ public class P3Driver {
         String operation = "";
         int lineno = 0;
 
-        MDS mds = new MDS();
+        DataSearchSystem dss = new DataSearchSystem();
         Timer timer = new Timer();
         int id, result, total = 0, price;
         List<Integer> name = new LinkedList<>();
