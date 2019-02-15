@@ -35,7 +35,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class MDS {
+public class DataSearchSystem {
     
     public HashMap<Integer, Item> hashMap;   
     public TreeMap<Integer, Item> treeMap; 
